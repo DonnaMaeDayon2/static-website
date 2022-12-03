@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Vollkorn:ital@1&display=swap');
 body {
 	background-color:yellow;
+	font-family: 'Vollkorn', serif;
 }
 p {
 	color:;
@@ -12,3 +14,7 @@ p {
 #content{
 	text-align: center;
 }
+ 
+ #my-name {
+    font-family: 'Merienda', cursive;
+ }
