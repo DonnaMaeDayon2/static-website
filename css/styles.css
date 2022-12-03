@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda&family=Vollkorn:ital@1&display=swap');
 
-/
+/CSS reset */
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
 
 
 
@@ -23,5 +28,31 @@ body {
  
  #my-name {
     font-family: 'Merienda', cursive;
-  color:  #CE7777;
+  color: #CE7777;
  }
+
+
+#left-side{
+ 	width: 50%;
+ 	display: inline-block;
+ }
+
+#right-side{
+ width: 49%;
+ display:inline-block;
+ text-align: right;
+}
+
+{
+	color:#D989B5;
+	text-decoration: none;
+	border-bottom: 1px dotted #FFADBC;
+}
+
+header {
+	margin-top: 16px;
+}
+
+.nav-link {
+	margin-left: 8px;
+}
