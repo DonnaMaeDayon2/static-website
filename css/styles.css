@@ -1,12 +1,11 @@
 body {
 	background-color:yellow;
-
+}
 p {
- color:
+	color:;
 
-
-
-#my-avatar {
-
- property: value;
+}
+#my-avatar{
+	width: 150px;
+	border-radius: 50%;
 }
