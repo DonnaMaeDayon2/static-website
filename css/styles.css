@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda&family=Vollkorn:ital@1&display=swap');
-body {
-	background-color:yellow;
-	font-family: 'Vollkorn', serif;
-}
-p {
-	color:;
 
+/
+
+
+
+body {
+	background-color:skyblue;
+	font-family: 'Vollkorn', serif;
+ color: #2B3A55;
 }
+
+
+
+
 #my-avatar{
-	width: 150px;
+	width: 80px;
 	border-radius: 50%;
 }
 #content{
@@ -17,4 +23,5 @@ p {
  
  #my-name {
     font-family: 'Merienda', cursive;
+  color:  #CE7777;
  }
