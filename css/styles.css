@@ -21,10 +21,15 @@ body {
 }
 
 
-
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 16px;
+}
 
 #my-avatar{
-	width: 80px;
+	width: 150px;
 	border-radius: 50%;
 
 
@@ -41,24 +46,20 @@ body {
 
 
 #left-side {
- 	position: absolute;
-    top:  16px;
-    left: 16px;
- }
-#left-side > a {
-	margin-right: 16px;
+ 	display: flex;
+	display-direction: row;
+	column-gap: 16px;
 }
-
 #right-side {
-    position: absolute;
+	background-color: none;
+    /* position: absolute;
     top: 16px;
-    right: 16px;
+    right: 16px; */
 
 }
 a {
 	color:#D989B5;
 	text-decoration: none;
-	border-bottom: 1px dotted #FFADBC;
 }
 
 
